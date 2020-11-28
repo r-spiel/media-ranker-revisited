@@ -57,6 +57,7 @@ gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'bootstrap'
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'pry-rails'
 end
 
@@ -76,3 +77,6 @@ group :test do
   gem 'minitest-rails'
   gem 'minitest-reporters'
 end
+
+gem "omniauth"
+gem "omniauth-github"
